@@ -1,0 +1,12 @@
+Source: ros-hydro-ardrone-autonomy
+Section: misc
+Priority: extra
+Maintainer: Mani Monajjemi <mmonajje@sfu.ca>
+Build-Depends: debhelper (>= 9.0.0), binutils-dev, daemontools, libgtk2.0-dev, libiw-dev, libsdl1.2-dev, libudev-dev, libxml2-dev, ros-hydro-camera-info-manager, ros-hydro-catkin, ros-hydro-image-transport, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-srvs, ros-hydro-tf
+Homepage: http://ros.org/wiki/ardrone_autonomy
+Standards-Version: 3.9.2
+
+Package: ros-hydro-ardrone-autonomy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-camera-info-manager, ros-hydro-image-transport, ros-hydro-message-runtime, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-srvs, ros-hydro-tf
+Description: &quot;ardrone_autonomy&quot; is a ROS driver for Parrot AR-Drone quadrocopter. This driver is based on official AR-Drone SDK version 2.0 and supports both AR-Drone 1.0 and 2.0. &quot;ardrone_autonomy&quot; is a fork of AR-Drone Brown driver. This package has been developed in Autonomy Lab of Simon Fraser University.
