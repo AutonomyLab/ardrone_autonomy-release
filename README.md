@@ -1,3 +1,24 @@
+## ardrone_autonomy (hydro) - 1.3.7-0
+
+The packages in the `ardrone_autonomy` repository were released into the `hydro` distro by running `/usr/bin/bloom-release ardrone_autonomy --track hydro --rosdistro hydro` on `Mon, 08 Sep 2014 22:21:34 -0000`
+
+The `ardrone_autonomy` package was released.
+
+Version of package(s) in repository `ardrone_autonomy`:
+- upstream repository: https://github.com/AutonomyLab/ardrone_autonomy.git
+- release repository: https://github.com/AutonomyLab/ardrone_autonomy-release.git
+- rosdistro version: `1.3.6-1`
+- old version: `1.3.6-1`
+- new version: `1.3.7-0`
+
+Versions of tools used:
+- bloom version: `0.5.11`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## ardrone_autonomy (groovy) - 1.3.6-1
 
 The packages in the `ardrone_autonomy` repository were released into the `groovy` distro by running `/usr/bin/bloom-release ardrone_autonomy --track groovy --rosdistro groovy` on `Mon, 08 Sep 2014 14:39:57 -0000`
