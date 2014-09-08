@@ -1,0 +1,52 @@
+ros-hydro-ardrone-autonomy (1.3.7-0precise) precise; urgency=high
+
+  * Use git protocol instead of https for cmake external project (fixes ca-certificate issues on the build farm)
+
+ -- Mani Monajjemi <mmonajje@sfu.ca>  Mon, 08 Sep 2014 04:00:00 -0000
+
+ros-hydro-ardrone-autonomy (1.3.6-0precise) precise; urgency=high
+
+  * Adding git as build dependency to fix binary build
+
+ -- Mani Monajjemi <mmonajje@sfu.ca>  Fri, 05 Sep 2014 04:00:00 -0000
+
+ros-hydro-ardrone-autonomy (1.3.5-0precise) precise; urgency=high
+
+  * Fixed Incorrect orientation in ardrone/imu #113  ht @tomas-c
+  * Added install rules for launch files. #114 ht @kbogert @fig0451
+  * ARDroneSDK is now fetched from an external repository. Patches are applied there.
+  * Add unit for pressure readings to README @garyservin
+  * Moved header files to include directory #110 @garyservin
+  * Fix ffmpeg library link order #109 @garyservin
+  * Contributors: Gary Servin, Mani Monajjemi
+
+ -- Mani Monajjemi <mmonajje@sfu.ca>  Wed, 03 Sep 2014 04:00:00 -0000
+
+ros-hydro-ardrone-autonomy (1.3.4-0precise) precise; urgency=high
+
+  * Decreased the frequency of magnetometer warning message
+  * Fixed some warnings to address #104 <https://github.com/AutonomyLab/ardrone_autonomy/issues/104>
+  * Contributors: Mani Monajjemi
+
+ -- Mani Monajjemi <mmonajje@sfu.ca>  Tue, 03 Jun 2014 04:00:00 -0000
+
+ros-hydro-ardrone-autonomy (1.3.3-0precise) precise; urgency=high
+
+  * Fixed tf deprecated setEulerZYX
+  * New SDK patch to remove deprecated warnings from FFMPEG
+
+ -- Mani Monajjemi <mmonajje@sfu.ca>  Sat, 01 Mar 2014 05:00:00 -0000
+
+ros-hydro-ardrone-autonomy (1.3.2-0precise) precise; urgency=high
+
+  * SDK related bug fixes for building binaries.
+
+ -- Mani Monajjemi <mmonajje@sfu.ca>  Tue, 25 Feb 2014 05:00:00 -0000
+
+ros-hydro-ardrone-autonomy (1.3.1-0precise) precise; urgency=high
+
+  * Preparing the initial binary release.
+
+ -- Mani Monajjemi <mmonajje@sfu.ca>  Tue, 18 Feb 2014 05:00:00 -0000
+
+
