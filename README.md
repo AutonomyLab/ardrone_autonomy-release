@@ -1,3 +1,24 @@
+## ardrone_autonomy (hydro) - 1.4.0-0
+
+The packages in the `ardrone_autonomy` repository were released into the `hydro` distro by running `/usr/bin/bloom-release ardrone_autonomy --track hydro --rosdistro hydro` on `Sat, 25 Apr 2015 01:15:14 -0000`
+
+The `ardrone_autonomy` package was released.
+
+Version of package(s) in repository `ardrone_autonomy`:
+- upstream repository: https://github.com/AutonomyLab/ardrone_autonomy.git
+- release repository: https://github.com/AutonomyLab/ardrone_autonomy-release.git
+- rosdistro version: `1.3.7-0`
+- old version: `1.3.7-0`
+- new version: `1.4.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## ardrone_autonomy (indigo) - 1.4.0-0
 
 The packages in the `ardrone_autonomy` repository were released into the `indigo` distro by running `/usr/bin/bloom-release ardrone_autonomy --track indigo --rosdistro indigo` on `Sat, 25 Apr 2015 00:58:50 -0000`
