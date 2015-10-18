@@ -1,3 +1,24 @@
+## ardrone_autonomy (jade) - 1.4.1-0
+
+The packages in the `ardrone_autonomy` repository were released into the `jade` distro by running `/usr/bin/bloom-release ardrone_autonomy --track jade --rosdistro jade --new-track` on `Sun, 18 Oct 2015 17:56:43 -0000`
+
+The `ardrone_autonomy` package was released.
+
+Version of package(s) in repository `ardrone_autonomy`:
+- upstream repository: https://github.com/AutonomyLab/ardrone_autonomy.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.4.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## ardrone_autonomy (indigo) - 1.4.1-0
 
 The packages in the `ardrone_autonomy` repository were released into the `indigo` distro by running `/usr/bin/bloom-release ardrone_autonomy --track indigo --rosdistro indigo` on `Sun, 18 Oct 2015 17:37:23 -0000`
