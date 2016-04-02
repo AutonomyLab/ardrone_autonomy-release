@@ -1,0 +1,13 @@
+Source: ros-kinetic-ardrone-autonomy
+Section: misc
+Priority: extra
+Maintainer: Mani Monajjemi <mmonajje@sfu.ca>
+Build-Depends: debhelper (>= 9.0.0), binutils-dev, daemontools, git-core, libgtk2.0-dev, libiw-dev, libsdl1.2-dev, libudev-dev, libxml2-dev, ros-kinetic-camera-info-manager, ros-kinetic-catkin, ros-kinetic-image-transport, ros-kinetic-message-generation, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-sensor-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Homepage: http://wiki.ros.org/ardrone_autonomy
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ardrone-autonomy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-camera-info-manager, ros-kinetic-image-transport, ros-kinetic-message-runtime, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Description: ardrone_autonomy is a ROS driver for Parrot AR-Drone 1.0 and 2.0 quadrocopters.
+ This driver is based on official AR-Drone SDK version 2.0.1.
